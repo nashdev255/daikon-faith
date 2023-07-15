@@ -29,12 +29,12 @@ header {
 	list-style: none;
 }
 
-.header-list li{
+.header-list li {
 	padding: 0 20px;
 	padding-bottom: 14px;
 }
 
-.header-list li:hover{
+.header-list li:hover {
 	border-bottom: solid lightgreen 5px;
 }
 
@@ -60,16 +60,12 @@ header {
 	padding-top: 20px;
 }
 
-.introduction{
-	display: flex;
+.introduction {
 	font-family: serif;
-    flex-wrap: wrap;
-	padding-left: 100px;
 }
 
-.person{
+.person {
 	display: flex;
-	width: 50%;
 }
 
 .produce{
