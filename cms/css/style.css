@@ -1,0 +1,110 @@
+@charset "utf-8";
+@import url(https://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+
+body {
+	padding: 0;
+	margin: 0;
+}
+
+header {
+	position: fixed;
+	width: 100%;
+	height: 65px;
+	background-color: #fff;
+	border-bottom: solid #ddd 1px;
+}
+
+.header-title {
+	font-family: serif;
+	font-size: 40px;
+	margin: 0;
+}
+
+.header-list {
+
+}
+
+.header-list ul {
+	display: flex;
+	list-style: none;
+}
+
+.header-list li{
+	padding: 0 20px;
+	padding-bottom: 14px;
+}
+
+.header-list li:hover{
+	border-bottom: solid lightgreen 5px;
+}
+
+.header-list ul > li + li{
+	border-left: #ddd;
+}
+
+.header-list a{
+	text-decoration: none;
+	color: #000;
+}
+
+.divider::before{
+	content: "/";
+	color: #ddd;
+	margin: 0 5px;
+}
+
+.main{
+	padding-top: 65px;
+}
+
+.about{
+	text-align: center;
+	font-family: serif;
+	font-size: 20px;
+	padding-top: 20px;
+}
+
+.introduction{
+	display: flex;
+	font-family: serif;
+    flex-wrap: wrap;
+	padding-left: 100px;
+}
+
+.person{
+	display: flex;
+	width: 50%;
+}
+
+.produce{
+    padding-left: 35px;
+	padding-top: 20px;
+	line-height: 100%;
+}
+
+#firstperson {
+	margin-top: 30px;
+}
+
+.person + .person{
+	margin-top: 30px;
+}
+
+.person a{
+	width: 25%;
+	height: 100%;
+}
+
+ .person > a > img{
+	border: solid lightgreen 3px;
+	border-radius: 50%;
+	width: 100%;
+	height: 90%;
+} 
+
+.person img{
+	border: solid lightgreen 3px;
+	border-radius: 50%;
+	width: 25%;
+	height: 90%;
+}
